@@ -1,0 +1,9 @@
+0. Wireshark -> Find -> ISC Regular Expression -> ISC{sending_passwords_in_cleartext_is_not_smart}
+1. file pe fisier -> Adaug extensia potrivita, .txt.gz -> ISC{file_is_our_friend}
+2. grep -a pe fisier cu 'ISC{' -> ISC{we_all_love_grep}
+3. Header-ul era corupt -> Schimb cu FF D8 -> ISC{no_more_ideas_for_flags}
+4. Am folosit Audacity si am gasit spectograma fisierului -> ISC{spectogram_for_the_win}
+5. binwalk -e pe fisier -> dd if=05-Idea.jpg of=05.7z ibs=1 skip=33519 pentru a lua arhiva -> ISC{fileception_is_real}
+6. Am convertit fisierul in HTML (folosind doua site-uri diferite deoarece cu primul nu a mers) -> ISC{hidden_in_the_dark}
+7. Am folosind un site pentru a captura fiecare cadru al GIF-ului si am gasit un cod QR -> Am scanat cu telefonul acest cod -> ISC{what_were_you_waiting_for}
+8. Wireshark -> Se schimba odata la cateva pachete niste octeti (campul de leftover capture data) -> Le-am cautat corespondenta in tabelul din documentatie -> ISC{keycap} 
